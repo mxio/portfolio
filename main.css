@@ -69,6 +69,7 @@ h3 {
 p {
     font-size: inherit;
     padding: 1em 0;
+    line-height: 1.25em;
 }
 
 strong {
