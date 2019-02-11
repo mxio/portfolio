@@ -54,16 +54,16 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.75em;
     line-height: 1.25em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 p {
@@ -81,7 +81,7 @@ nav {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 5% 0;
+    padding: 5% 10%;
 }
 
 .logo {
@@ -91,6 +91,10 @@ nav {
 nav ul {
     display: flex;
     align-self: flex-end;
+}
+
+nav li {
+    padding-right: 5%;
 }
 
 header, main {
@@ -107,4 +111,27 @@ main {
 
 hr {
     margin: 10% 0;
+}
+
+img {
+    width: 100%;
+    margin: 5% 0;
+}
+
+section div {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1% 0;
+}
+
+section h2 {
+    padding-bottom: 5%;
+}
+
+section p {
+    padding: 0;
+}
+
+div i {
+    padding-right: 4%;
 }
