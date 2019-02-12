@@ -53,48 +53,80 @@ body {
     font-size: 18px;
 }
 
+h1, h2, h3, nav div {
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 0.05em;
+}
+
 h1 {
     font-size: 1.75em;
     line-height: 1.25em;
+    font-weight: 700;
+    color: #00adb5;
+}
+
+h2, h3, p {
+    color: #393e46;
 }
 
 h2 {
     font-size: 1.5em;
+    font-weight: 700;
+    font-family: "Yeseva One";
+    letter-spacing: .05em;
 }
 
 h3 {
     font-size: 1.25em;
 }
 
+nav ul, p {
+    font-weight: 300;
+}
+
 p {
+    font-family: "Merriweather Sans", sans-serif;
     font-size: inherit;
     padding: 1em 0;
-    line-height: 1.25em;
+    line-height: 1.5em;
 }
 
 strong {
     font-weight: 700;
 }
 
+a {
+    color: #00adb5;
+}
+
 nav {
-    background-color: gray;
+    background-color: #393e46;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 5% 10%;
+    color: #fff;
 }
 
 .logo {
     align-self: flex-start;
+    font-size: 1.5em;
 }
 
 nav ul {
     display: flex;
     align-self: flex-end;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
 nav li {
     padding-right: 5%;
+}
+
+nav li:hover {
+    color: #00adb5;
+    cursor: pointer;
 }
 
 header, main {
