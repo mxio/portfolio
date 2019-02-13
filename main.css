@@ -49,6 +49,10 @@ table {
 
 /* Portfolio Styles */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 18px;
 }
@@ -124,7 +128,12 @@ nav li {
     padding-right: 5%;
 }
 
-nav li:hover {
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
     color: #00adb5;
     cursor: pointer;
 }
