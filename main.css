@@ -58,30 +58,28 @@ body {
 }
 
 h1, h2, h3, nav div {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Roboto';
     letter-spacing: 0.05em;
 }
 
 h1 {
     font-size: 1.75em;
     line-height: 1.25em;
-    font-weight: 700;
-    color: #00adb5;
-}
-
-h2, h3, p {
-    color: #393e46;
+    font-weight: 100;
+    color: #789CC9;
+    padding: 0 0 0.3em 0;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: 700;
-    font-family: "Yeseva One";
     letter-spacing: .05em;
+    color: #337ab7;
 }
 
 h3 {
     font-size: 1.25em;
+    color: #337ab7;
 }
 
 nav ul, p {
@@ -89,10 +87,14 @@ nav ul, p {
 }
 
 p {
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: inherit;
     padding: 1em 0;
     line-height: 1.5em;
+}
+
+header p {
+    width: 60%
 }
 
 strong {
@@ -100,16 +102,15 @@ strong {
 }
 
 a {
-    color: #00adb5;
+    color: #337ab7;
 }
 
 nav {
-    background-color: #393e46;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding: 5% 10%;
-    color: #fff;
+    color: #222;
 }
 
 .logo {
@@ -130,11 +131,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #222;
 }
 
 nav a:hover {
-    color: #00adb5;
+    color: #337ab7;
     cursor: pointer;
 }
 
@@ -158,6 +159,13 @@ main li {
 
 hr {
     margin: 10% 0;
+    border: none;
+    border-top: 1px solid #222;
+    opacity: .2;
+}
+
+nav ~ hr {
+    margin: 0;
 }
 
 img {
