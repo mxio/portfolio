@@ -173,6 +173,8 @@ nav ~ hr {
 img {
     width: 100%;
     margin: 5% 0;
+    box-shadow: 5px 10px 20px 0 #999;
+    flex-shrink: 0;
 }
 
 section div {
