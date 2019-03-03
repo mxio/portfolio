@@ -24,6 +24,11 @@
         box-sizing: border-box;
         padding: 5% 0;
     }
+
+    
+    header p {
+        width: 60%
+    }
 }
 
 @media screen and (min-width: 1440px) {
