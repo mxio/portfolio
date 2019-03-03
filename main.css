@@ -77,6 +77,10 @@ h2 {
     color: #337ab7;
 }
 
+main h2 {
+    margin-bottom: .5em;
+}
+
 h3 {
     font-size: 1.25em;
     color: #337ab7;
