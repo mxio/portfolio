@@ -166,6 +166,8 @@ hr {
 
 nav ~ hr {
     margin: 0;
+    box-shadow: 0 1px 1px 1px #999;
+    opacity: .1;
 }
 
 img {

@@ -16,7 +16,8 @@
         width: 60%;
         height: 60%;
         box-sizing: border-box;
-        padding-right: 5%;
+        margin-right: 5%;
+        box-shadow: 5px 10px 20px 0 #999;
     }
 
     article div {
